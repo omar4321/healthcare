@@ -1,0 +1,25 @@
+
+.carousel img {
+    width: 450px;
+    height: 500px;
+}
+
+.carousel .text{
+    margin-bottom: 100px;
+}
+
+.carousel .text h1 {
+    font-size: 40px;
+    color: #f6f8ff;
+    font-weight: 900;
+    font-family:'Courier New', Courier, monospace;
+      text-shadow: 0px 4px 5px #363131;
+}
+
+.carousel .text p {
+    font-size: 20px;
+    color: #000000;
+      margin-top: 10px;
+    font-family:sans-serif;
+      text-shadow: 0px 4px 5px #363131;
+}

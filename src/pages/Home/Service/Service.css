@@ -1,0 +1,35 @@
+#Service{
+    background-color: rgb(214, 255, 255);
+    border-radius:20px ;
+    color: rgb(0, 0, 0);
+}
+
+
+#Service p {
+    font-size: 15px;
+    color: grey;
+    width:90%;
+    margin: auto;
+}
+#Service img{
+    width: 100%;
+	height: auto;
+	-webkit-transition: .4s ease-in-out;
+	transition: .5s ease-in-out;
+}
+#Service img:hover{
+  
+    width: 95%;
+    	height: auto;
+}
+#Service .Service-btn{
+    background-color: #00acb1;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+#Service .Service-btn:hover{
+    background-color: #0c3738;
+    color: #fff;
+    
+}

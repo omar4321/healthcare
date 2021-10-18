@@ -1,0 +1,25 @@
+#team{
+    background-color: rgb(214, 255, 255);
+    border-radius:20px ;
+    color: rgb(0, 0, 0);
+}
+
+
+
+#team img{
+    width: 100%;
+	height: auto;
+	
+}
+
+#team .Service-btn{
+    background-color: #00acb1;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+#team .Service-btn:hover{
+    background-color: #0c3738;
+    color: #fff;
+    
+}

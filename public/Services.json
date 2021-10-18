@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Blood Bank",
+        "price": "30$",
+        "description": "Evercare Blood Bank is a place for collecting, screening, typing, processing, and storing whole blood, packed red blood cells, fresh frozen plasma and platelet concentrate, gathered as a result of blood donation",
+        "img": "https://i.ibb.co/prDK7Rk/services1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Anaesthesia",
+        "price": "100$",
+        "description": "Anesthesia is a state of controlled, temporary loss of sensation or awareness that is induced for medical purposes. It may include some or all of analgesia,",
+        "img": "https://i.ibb.co/1b3Wy99/services2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Covid test",
+        "price": "150$",
+        "description": "Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus. Most people infected with the virus will experience mild to moderate ...",
+        "img": "https://i.ibb.co/RDgpjzy/services3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Critical Care",
+        "price": "180$",
+        "description": "Intensive care medicine, also called critical care medicine",
+        "img": "https://i.ibb.co/fDTtpCD/services4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Cardiac Surgery - Adult",
+        "price": "200$",
+        "description": "Read Cardiac Surgery in the Adult, 5e online now, exclusively on AccessSurgery. AccessSurgery is a subscription-based resource from McGraw Hill that ...",
+        "img": "https://i.ibb.co/bLZBQB0/services5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Brain operation",
+        "price": "300$",
+        "description": "What is brain surgery? Neurosurgery or brain surgery refers to surgical procedures of the brain or structures around it and is done to correct any abnormalities such as tumors or aneurysms. ",
+        "img": "https://image.shutterstock.com/image-photo/surgeons-perform-brain-surgery-using-260nw-1152709331.jpg"
+    }
+]

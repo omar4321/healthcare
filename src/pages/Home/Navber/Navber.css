@@ -1,0 +1,43 @@
+.contact-Nav{
+    background-color: #005963;
+    color: white;
+  
+}
+
+.contact-Nav .text p{
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+ .contact-Nav .icon .fab-icon{
+     margin-left: 20px;
+     font-size: 20px;
+     border-radius: 50%;
+ }
+
+ .contact-Nav .icon .fab-icon:hover{
+     color: rgb(207, 207, 207);
+ }
+
+ .nav-bg{
+     background-color: #a3ccd1 ;
+    color: white !important;
+ }
+
+ .logo-nav{
+  
+     font-size: 30px;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+ }
+
+ .logo-nav .logo-text-1{
+     color: red;
+     font-family: cursive;
+     font-weight: 600;
+ }
+
+ .logo-nav .logo-text-2{
+    color: rgb(5, 3, 3);
+    font-family: cursive;
+    font-weight: 600;
+}

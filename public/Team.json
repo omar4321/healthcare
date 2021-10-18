@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Dr.Nizam",
+        "SP": "Obstetrics & Gynaecology",
+        "img": "https://slidesigma.nyc/templatemonster/react/medtab/assets/img/doctors-grid/348x350-3.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Janice Hughes",
+        "SP": "Obstetrics & Gynaecology",
+        "img": "https://slidesigma.nyc/templatemonster/react/medtab/assets/img/doctors-grid/348x350-5.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Carmen Nelson",
+        "SP": "Obstetrics & Gynaecology",
+        "img": "https://slidesigma.nyc/templatemonster/react/medtab/assets/img/doctors-grid/348x350-4.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Matthew Reyes",
+        "SP": "Obstetrics & Gynaecology",
+        "img": "https://slidesigma.nyc/templatemonster/react/medtab/assets/img/doctors-grid/348x350-0.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Rebecca Gilbert",
+        "SP": "Obstetrics & Gynaecology",
+        "img": "https://slidesigma.nyc/templatemonster/react/medtab/assets/img/doctors-grid/348x350-2.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Brain operation",
+        "SP": "Obstetrics & Gynaecology",
+        "img": "https://slidesigma.nyc/templatemonster/react/medtab/assets/img/doctors-grid/348x350-1.jpg"
+    }
+]
