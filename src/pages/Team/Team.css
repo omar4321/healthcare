@@ -4,13 +4,27 @@
     color: rgb(0, 0, 0);
 }
 
-
-
-#team img{
-    width: 100%;
-	height: auto;
-	
+.box{
+    position: relative;
+  width: 100%;
 }
+
+.box .img-box {
+    position: relative;
+    overflow: hidden;
+
+}
+.box .img-box img{
+    max-width: 100%;
+    transition: transform  1s;
+    width: 100%;
+}
+
+.box:hover .img-box img{
+    transform: scale(1.1);
+}
+
+
 
 #team .Service-btn{
     background-color: #00acb1;

@@ -11,17 +11,28 @@
     width:90%;
     margin: auto;
 }
-#Service img{
+
+.box{
+    position: relative;
+  width: 100%;
+}
+
+.box .img-box {
+    position: relative;
+    overflow: hidden;
+
+}
+.box .img-box img{
+    max-width: 100%;
+    transition: transform  1s;
     width: 100%;
-	height: auto;
-	-webkit-transition: .4s ease-in-out;
-	transition: .5s ease-in-out;
 }
-#Service img:hover{
-  
-    width: 95%;
-    	height: auto;
+
+.box:hover .img-box img{
+    transform: scale(1.1);
 }
+
+
 #Service .Service-btn{
     background-color: #00acb1;
     color: #fff;

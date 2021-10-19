@@ -7,37 +7,35 @@ const Fotter = () => {
       <div className="">
         <div className="row">
           <div className="col-md-3  ">
-            <div className="first-cart p-2 mt-2">
-              {/* <img src={logo} alt="" /> */}
-              <h6 className="mt-5">About Us</h6>
-              <p>Lorem ipsum dolor sit amet.</p>
-              <p>Lorem ipsum dolor sit amet.</p>
-              <p>Lorem ipsum dolor sit amet.</p>
-              <p>Lorem ipsum dolor sit amet.</p>
+            <div className="first-cart p-2 mb-4">
+              <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE0-m0CojMu29vROz2So_TpGFWyAULJ3gb6A&usqp=CAU" alt="" />
+              <h1 className="mt-5">About Us</h1>
+              <p> It is a long established fact that a reader will be distracted by the readable.</p>
+          
             </div>
           </div>
           <div className="col-md-3">
             <div className="second-part">
-              <h1 className="">Hello world</h1>
+              <h1 className=""> Give Feedback</h1>
               <input
                 className="input-field mt-3"
                 type="text"
-                placeholder="Hello world"
+                placeholder="Enter your Gmail"
               />
-              <br />
+              <br /> <br/>
               <input
                 className="input-field"
                 type="text"
-                placeholder="Hello world"
+                placeholder="Enter your Feedback"
               />
               <br />
-              <input className="input-button" type="text" type="submit" />
+              <input className="input-button btn m-4" type="text" type="submit" />
               <br />
               <p>
-                <span className="m-2 ">icon</span>
-                <span className="m-2 ">icon</span>
-                <span className="m-2 ">icon</span>
-                <span className="m-2 ">icon</span>
+                <span className="m-2 "><i class="fab fa-facebook-square"></i></span>
+                <span className="m-2 "><i class="fab fa-instagram-square"></i></span>
+                <span className="m-2 "><i class="fab fa-linkedin"></i></span>
+                <span className="m-2 "><i class="fas fa-envelope-square"></i></span>
               </p>
             </div>
           </div>
@@ -45,10 +43,10 @@ const Fotter = () => {
             <div className="third-part">
               <h1>Useful Links</h1>
               <p className="mt-4">Privacy Policy</p>
-              <p>Privacy Policy</p>
-              <p>Privacy Policy</p>
-              <p>Privacy Policy</p>
-              <p>Privacy Policy</p>
+              <p>Home</p>
+              <p>Services</p>
+              <p>Team</p>
+              <p>How it's work</p>
             </div>
           </div>
           <div className="col-md-3">
@@ -66,7 +64,7 @@ const Fotter = () => {
         </div>
         <hr />
         <div className="botton text-center">
-          <small>© 2020 Omar Theme by Goalthemes. All Rights Reserved.</small>
+          <small>© 2020 Safia Medi Theme by Omar. All Rights Reserved.</small>
         </div>
       </div>
     </div>

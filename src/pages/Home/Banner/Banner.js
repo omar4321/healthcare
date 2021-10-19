@@ -37,7 +37,7 @@ const Banner = () => {
                     <Carousel.Caption  className="text">
                     <h1   >Find A Best Doctor Near By You </h1>
                     <Button variant="danger">Find A Doctor <i class="fas fa-angle-double-right"></i>  </Button>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>Nulla vitae elit libero a pharetra augue mollis interdum</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>

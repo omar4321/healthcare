@@ -1,0 +1,56 @@
+.work-component{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 30px;
+}
+.work-component p {
+
+    color: rgb(49, 46, 46);
+}
+h1{
+    color:#09999e;  
+}
+.title{
+    color:#153031;
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform:uppercase;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid rgb(185, 20, 20);
+
+}
+
+.btn{
+    background-color:#09999e ;
+    color: rgb(255, 255, 255);
+}
+.btn:hover{
+    background-color:#182f30 ;
+    color: #fff;
+
+}
+.icon {
+    font-size: 30px;
+    color: #09999e;
+    
+}
+
+.work-card{
+    background-color: rgb(236, 245, 234);
+    padding: 20px 10px 10px 10px;
+    border-radius: 20px;
+    
+}
+/* Make it responsive */
+@media only screen and (max-width:688px) {
+    .work-component{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media only screen and (min-width:689px) and (max-width: 991px){
+    .work-component{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

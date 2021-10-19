@@ -9,7 +9,7 @@ const Services = () => {
         .then(res => res.json())
         .then(data => setServices(data))
     },[])
-      console.log(services)
+    
     return (
         <div id="services">
             <h5 >What We do</h5>

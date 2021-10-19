@@ -8,12 +8,16 @@ import Notfound from './pages/Notfound/Notfound';
 import Login from './pages/Login/Login/Login';
 import Teams from './pages/Teams/Teams';
 import Fotter from './pages/Fotter/Fotter';
-
+import Work from './pages/Work/Work';
+import PrivateRoute from './pages/Login/Login/PrivateRoute/PrivateRoute';
+import Booking from './pages/Booking/Booking/Booking';
+import AuthProvider from './contexts/AuthProvider';
+import Reg from './pages/Reg/Reg';
 function App() {
   return (
     <div className="App">
     
-      <Router>
+      <AuthProvider><Router>
          <Navber/>
          <div > 
            <Switch>
@@ -29,14 +33,19 @@ function App() {
             <Route path="/teams">
               <Teams></Teams>
             </Route>
+            <Route exact  path="/work">
+              <Work></Work>
+            </Route>
             <Route path="/login">
              <Login></Login>
             </Route>
-
+            <Route exact path='/reg'>
+                  <Reg></Reg>
+                  </Route>
             
-            {/* <PrivateRoute path='/booking/:serviceId'>
+            <PrivateRoute path='/booking/:serviceId'>
               <Booking></Booking>
-            </PrivateRoute> */}
+            </PrivateRoute>
           
             <Route path="*">
              <Notfound></Notfound>
@@ -44,7 +53,7 @@ function App() {
           </Switch></div>
           <Fotter></Fotter>
         </Router>
-
+</AuthProvider>
     </div>
   );
 }

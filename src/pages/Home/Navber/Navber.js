@@ -5,8 +5,11 @@ import "./Navber.css"
 
 
 import { HashLink } from 'react-router-hash-link';
+import useAuth from '../../../hooks/useAuth';
+import Button from '@restart/ui/esm/Button';
 
 const Navber = () => {
+    const { users, logOut } = useAuth();
     return (
         <div>
         <div className='contact-Nav '>
@@ -28,15 +31,19 @@ const Navber = () => {
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end">
                     <Nav.Link  as={HashLink }  to="/home#home">Home</Nav.Link>
+
                     <Nav.Link as={HashLink }  to="/home#services" >Services</Nav.Link>
+
                     <Nav.Link   as={HashLink } to="/home#teams"   >Teams</Nav.Link>
-                    {/* {users?.displayName ?
-                        <Button  onClick={logOut} variant="danger">Logout</Button> : */}
-                        <Nav.Link as={Link}  to="/login">Login</Nav.Link>
-                    <Navbar.Text>
-                        Signed in as: <a href="#login"> omar</a>
-                    </Navbar.Text>
-                
+
+                    <Nav.Link   as={HashLink } to="/home#work"   >How it's Work</Nav.Link>
+                    
+                    {users?.displayName ?
+                            <Button  onClick={logOut} variant="danger">Logout</Button> :
+                            <Nav.Link as={Link} to="/login">Login</Nav.Link>}
+                        <Navbar.Text>
+                            Signed in as: <a href="#login">{users?.displayName}</a>
+                        </Navbar.Text>
                   
                 </Navbar.Collapse>
             </Container>

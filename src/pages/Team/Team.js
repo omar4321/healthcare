@@ -8,7 +8,7 @@ const Team = ({team}) => {
     return (
         <div>
             <div id='team'>
-          <img src= {img} alt="" /> 
+          <div className="box">  <div className="img-box"><img src= {img} alt="" /> </div></div>
            <h3> {name} </h3>
            <h3>  {SP}</h3>  
           <Button className='Service-btn'> Book  {name}</Button>
