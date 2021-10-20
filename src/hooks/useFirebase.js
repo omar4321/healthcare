@@ -5,7 +5,7 @@ import initializeAuthentiction from './../pages/Login/Firebase/firebase.init';
 initializeAuthentiction();
 
 const UserFirebase = () =>{
-    const [users,setUsers] =  useState({});
+    const [users,setUsers] =  useState({}); 
     const [isloading, setIsloding] = useState(true);
     const auth = getAuth();
     const signInUsingGoogle = () =>{
@@ -62,6 +62,11 @@ const UserFirebase = () =>{
         .then(()=>{})
         .finally(()=> setIsloding(false))
     }
+     
+    // login
+    
+
+
     return {
         users,
         logOut,

@@ -70,7 +70,6 @@ const handleEmailChange = (e) => {
        const {signInUsingGoogle} = useAuth();
           //    Github
   const { signInUsingGithub} = useAuth();
-
     return (
       <div className='login-from mt-4'>
       <div>

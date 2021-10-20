@@ -4,8 +4,8 @@ import "./Work.css"
 
 const Work = () => {
     return (
-      <div id="work">    <Container>
-      <div className="mt-4 "> 
+      <div id="work" className="mt-3 mb-3">    <Container>
+      <div className="mt-4  mb-4"> 
      
       <span className='title'> Our work</span>
   <div className="work-component">

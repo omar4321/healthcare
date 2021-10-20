@@ -1,4 +1,6 @@
 import React from 'react';
+import Direction from '../../Map/Direction/Direction';
+
 import Subcribe from '../../Subcribe/Subcribe';
 import Teams from '../../Teams/Teams';
 import Work from '../../Work/Work';
@@ -21,6 +23,7 @@ const Home = () => {
          <Teams></Teams>
          <Work></Work>
          <Subcribe></Subcribe>
+         <Direction/>
         
         </div>
     );

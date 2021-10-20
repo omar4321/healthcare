@@ -11,10 +11,10 @@ import Button from '@restart/ui/esm/Button';
 const Navber = () => {
     const { users, logOut } = useAuth();
     return (
-        <div>
+        <div >
         <div className='contact-Nav '>
         <Container>
-              <div className="d-flex align-items-center  justify-content-between "> 
+              <div className="d-flex align-items-center  justify-content-between  "> 
                 <div className="text">
                     <p><i class="fas fa-envelope"></i> support@gmail.com <i class="fas fa-location-arrow"></i> Bangladesh</p>
          </div>
@@ -27,6 +27,7 @@ const Navber = () => {
         </div>
         <Navbar className="nav-bg"   collapseOnSelect expand="lg" >
         <Container>
+            
                 <Navbar.Brand href="#home" className="logo-nav"> <span className="logo-text-1">Shifa </span> <span className='logo-text-2'>Medi</span> </Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end">
@@ -37,6 +38,7 @@ const Navber = () => {
                     <Nav.Link   as={HashLink } to="/home#teams"   >Teams</Nav.Link>
 
                     <Nav.Link   as={HashLink } to="/home#work"   >How it's Work</Nav.Link>
+                    <Nav.Link   as={HashLink } to="/home#find"   > Location</Nav.Link>
                     
                     {users?.displayName ?
                             <Button  onClick={logOut} variant="danger">Logout</Button> :

@@ -13,6 +13,7 @@ import PrivateRoute from './pages/Login/Login/PrivateRoute/PrivateRoute';
 import Booking from './pages/Booking/Booking/Booking';
 import AuthProvider from './contexts/AuthProvider';
 import Reg from './pages/Reg/Reg';
+import Direction from './pages/Map/Direction/Direction';
 function App() {
   return (
     <div className="App">
@@ -42,6 +43,10 @@ function App() {
             <Route exact path='/reg'>
                   <Reg></Reg>
                   </Route>
+                  <Route exact path='/find'>
+                   <Direction></Direction>
+                  </Route>
+            
             
             <PrivateRoute path='/booking/:serviceId'>
               <Booking></Booking>
